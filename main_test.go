@@ -46,7 +46,7 @@ func TestAsciiArt(t *testing.T) {
 		expectedLines int
 	}{
 		{"single word", "hello", 8},
-		{"multiline", "hello\nworld", 16},
+		{"multiline", `hello\nworld`, 16},
 		{"empty input", "", 0},
 	}
 	for _, tt := range tests {
