@@ -6,7 +6,8 @@ import (
 	"os"
 )
 
-func readBanner(banner string) []string {
+func ReadBanner(banner string) []string {
+	
 	if banner != "standard" && banner != "thinkertoy" && banner != "shadow" {
 		fmt.Println("Error: Wrong Banner name")
 		return nil
