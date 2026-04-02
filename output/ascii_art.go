@@ -6,6 +6,7 @@ import (
 )
 
 func AsciiArt(input string, bannerlines []string) string {
+	
 	if input == "" {
 		return ""
 	}
